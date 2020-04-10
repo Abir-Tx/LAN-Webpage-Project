@@ -1,0 +1,17 @@
+.header
+{
+    background-color: cornsilk;
+    font: bold;
+    font-size: x-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: black;
+    background-image: none;
+    position: absolute;
+}
+.header:hover
+{
+    color: blue;
+    background-image: none;
+    position: relative;
+}
