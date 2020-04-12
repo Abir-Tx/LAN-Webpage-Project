@@ -7,11 +7,43 @@
     text-align: center;
     text-shadow: black;
     background-image: none;
-    position: absolute;
+    position: relative;
 }
 .header:hover
 {
     color: blue;
     background-image: none;
     position: relative;
+}
+.navigation
+{
+    background-color: darkturquoise;
+    text-shadow: black;
+    box-shadow: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: monospace;
+    font-size: x-large;
+}
+.navigation:hover
+{
+    color: rgb(189, 15, 15);
+    background-color: black;
+    font-size: xx-large;
+}
+.welcome-image
+{
+    background-color: blue;
+    background-position: center;
+    position: relative;
+}
+.welcome-image:hover
+{
+    background-color: darkcyan;
+}
+.image
+{
+    width: fit-content;
+    height: fit-content;
 }
