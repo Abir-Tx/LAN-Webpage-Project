@@ -49,6 +49,7 @@
     position: relative;
     width: auto;
     height: auto;
+    transition: 0.4s ease-in-out;
 }
 .welcome-image:hover
 {
