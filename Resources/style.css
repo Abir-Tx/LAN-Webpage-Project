@@ -76,7 +76,7 @@
 	display:block;
 	padding:5px;
 	border-bottom:1px solid #1a0066;
-	padding-bottom:10px;
+	padding-bottom:20px;
 }
 #sideimage
 {
@@ -92,13 +92,18 @@
     font: bold;
     font-family: 'Oswald', sans-serif;
 }
+#aboutAbirText
+{
+    font-family: 'Comic Neue', cursive;
+    margin-top: 10px;
+}
 
 #side-bar2
 {
 	overflow:hidden;
 	display:block;
-	padding:5px;
-	margin-top:-13px;
+	padding: 5px;
+	margin-top:auto;
 }
 
 #sideimage2
