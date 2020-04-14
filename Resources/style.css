@@ -84,7 +84,9 @@
 }
 #aboutabir{
 	float:left;
-	margin-left:20px;
+    margin-left:20px;
+    font: bold;
+    font-family: 'Oswald', sans-serif;
 	
 }
 #footer{                                    /* The footer design */
