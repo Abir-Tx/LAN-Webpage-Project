@@ -8,6 +8,7 @@
     text-shadow: black;
     background-image: none;
     position: relative;
+	
 }
 .header:hover
 {
@@ -25,6 +26,7 @@
     text-align: center;
     font-family: monospace;
     font-size: x-large;
+	transition:0.3s all ease;
 }
 .navigation:hover
 {
@@ -32,6 +34,10 @@
     background-color: black;
     font-size: xx-large;
 }
+.navigation a{
+	text-decoration:none;
+}
+
 .welcome-image
 {
     background-color: blue;
