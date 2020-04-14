@@ -23,7 +23,7 @@ body{
 	
 }
 #share_item img:hover{
-	width:+110%
+	width:+80%
 }
 
 .header
@@ -105,9 +105,8 @@ body{
 	border-bottom:1px solid #1a0066;
 	padding-bottom:20px;
 }
-#sideimage:hover{
-	color:#ddd
-}
+
+
 #sideimage
 {
 	
@@ -188,7 +187,12 @@ body{
 #mybtn:active{
 	 box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
     margin-top: 2px; }
+<<<<<<< HEAD
 
+=======
+}
+}
+>>>>>>> 07b6b31bbd7ffbdc918e4ab64946c6d0499523f4
 
 
 
