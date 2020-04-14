@@ -1,3 +1,4 @@
+*{margin:0; padding:0}
 .header
 {
     background-color: cornsilk;
@@ -8,6 +9,7 @@
     text-shadow: black;
     background-image: none;
     position: relative;
+	transition:0.3s all ease;
 	
 }
 .header:hover
@@ -27,6 +29,8 @@
     font-family: monospace;
     font-size: x-large;
 	transition:0.3s all ease;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .navigation:hover
 {
@@ -43,6 +47,7 @@
     background-color: blue;
     background-position: center;
     position: relative;
+	margin-bottom:10px;
 }
 .welcome-image:hover
 {
@@ -53,3 +58,26 @@
     width: fit-content;
     height: fit-content;
 }
+.footer{
+	background:blue;
+	text-align:center;
+	color:white;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
