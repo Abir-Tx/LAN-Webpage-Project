@@ -1,3 +1,4 @@
+*{margin:0; padding:0}
 .header
 {
     background-color: cornsilk;
@@ -8,6 +9,8 @@
     text-shadow: black;
     background-image: none;
     position: relative;
+	transition:0.3s all ease;
+	
 }
 .header:hover
 {
@@ -25,6 +28,9 @@
     text-align: center;
     font-family: monospace;
     font-size: x-large;
+	transition:0.3s all ease;
+	margin-top:10px;
+	margin-bottom:10px;
 }
 .navigation:hover
 {
@@ -32,6 +38,10 @@
     background-color: black;
     font-size: xx-large;
 }
+.navigation a{
+	text-decoration:none;
+}
+
 .welcome-image
 {
     background-color: blue;
@@ -67,3 +77,29 @@
 {
     text-align: right;
 }
+    width: fit-content;
+    height: fit-content;
+}
+.footer{
+	background:blue;
+	text-align:center;
+	color:white;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
