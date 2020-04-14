@@ -1,4 +1,31 @@
 *{margin:0; padding:0}
+body{
+	background:#ddd;
+	z-index:1;
+}
+
+#share_item{
+	list-style-type:none;
+	padding:7px 3px 7px 10px;
+	position:fixed;
+	background:#ddd;
+	border-radius:25px 0 0 25px;
+	top:25%;
+	right:0;
+	z-index:5;
+}
+#share_item img{
+	width:32px;
+	height:32px
+}	
+#share_item li{
+	display:block;
+	
+}
+#share_item img:hover{
+	width:+110%
+}
+
 .header
 {
     background-color: cornsilk;
@@ -155,7 +182,6 @@
     margin-top: 2px; }
 } 
 }
-
 
 
 
