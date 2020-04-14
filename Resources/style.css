@@ -14,7 +14,7 @@
 }
 .header:hover
 {
-    color: blue;
+    color: #1a0066;
     background-image: none;
     position: relative;
 }
@@ -64,15 +64,14 @@
 
 /* Button design */
 #button
-{
-   
+{   text-align: center;
     font-size: medium;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	padding:5px;
-	border-radius:5px
+    border-radius:5px
 }
 #side-bar{
-	overflow:hidden;
+	overflow:hidden;   /* For displaying the text beside the image */
 	display:block;
 }
 #sideimage
@@ -83,18 +82,12 @@
 	float:left;
 
 }
-<<<<<<< HEAD
 #aboutabir{
 	float:left;
 	margin-left:20px;
 	
-=======
-.aboutAbir
-{
-    float: left;
->>>>>>> 0d806ef10dd4e0f7e8c490ea4518781d4a97633e
 }
-#footer{
+#footer{                                    /* The footer design */
 	background-color:#1a0066;
 	color:#ffffcc;
 	text-align:center;
