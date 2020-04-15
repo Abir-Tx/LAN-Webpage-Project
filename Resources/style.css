@@ -124,9 +124,22 @@ body{
 #aboutAbirText
 {
     font-family: 'Comic Neue', cursive;
-    margin-top: 10px;
+    margin-top: 5px;
+    position: relative;
 }
-
+.textBlock
+{
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.textBlock:hover
+{
+    background-color: blueviolet;
+    transition: 0.4s ease-in;
+    margin-right: 40%;
+}
 #side-bar2
 {
 	overflow:hidden;
@@ -149,6 +162,25 @@ body{
     margin-left:20px;
     font: bold;
     font-family: 'Oswald', sans-serif;
+}
+#aboutRafiText
+{
+    font-family: 'Comic Neue', cursive;
+    margin-top: 5px;
+    position: relative;
+}
+.textBlock2
+{
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.textBlock2:hover
+{
+    background-color: blueviolet;
+    transition: 0.4s ease-in;
+    margin-right: 40%;
 }
 
 #footer{                                    /* The footer design */
