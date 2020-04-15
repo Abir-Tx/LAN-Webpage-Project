@@ -39,6 +39,7 @@ body{
     text-shadow: black;
     background-image: none;
     position: relative;
+
     transition:0.3s all ease;
 }
 .header:hover
@@ -73,7 +74,6 @@ body{
 .navigation a{
 	text-decoration:none;
 }
-
 .welcome-image
 {
     background-color: blue;
@@ -240,3 +240,8 @@ body{
         font-size: larger;
         color: cornsilk;
     }
+.image
+{
+    width: fit-content;
+    height: fit-content;
+}
