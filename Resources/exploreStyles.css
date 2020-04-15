@@ -1,0 +1,16 @@
+/* Stylesheet for the explore page */
+body
+{
+    background-color: none;
+}
+h1.title
+{
+    text-align: center;
+}
+h2.subtitle
+{
+    text-align: center;
+    margin-left: 15%;
+    font-size: small;
+    margin-top: -2%;
+}
