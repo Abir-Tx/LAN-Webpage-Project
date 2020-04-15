@@ -1,6 +1,37 @@
+*{margin:0; padding:0}
+body{
+	background:none;
+    z-index:1;
+/*     background-image: url("Pictures/background.jpg");
+    background-repeat: repeat-x;
+    background-attachment: fixed; */
+}
+
+#share_item{
+	list-style-type:none;
+	padding:7px 3px 7px 10px;
+	position:fixed;
+	background:none;
+	border-radius:25px 0 0 25px;
+	top:25%;
+	right:0;
+	z-index:5;
+}
+#share_item img{
+	width:32px;
+	height:32px
+}	
+#share_item li{
+	display:block;
+	
+}
+#share_item img:hover{
+	width:+80%
+}
+
 .header
 {
-    background-color: cornsilk;
+    background-color: none;
     font: bold;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -8,12 +39,15 @@
     text-shadow: black;
     background-image: none;
     position: relative;
+
+    transition:0.3s all ease;
 }
 .header:hover
 {
-    color: blue;
+    color: #1a0066;
     background-image: none;
     position: relative;
+    background-color: black;
 }
 .navigation
 {
@@ -23,25 +57,189 @@
     color: white;
     position: relative;
     text-align: center;
-    font-family: monospace;
-    font-size: x-large;
+    font-family: bungee, sans-serif;
+    font-weight: 100;
+   
+	transition:0.3s all ease;
+	margin-top:10px;
+    margin-bottom:10px;
+    font-size: medium;
 }
 .navigation:hover
 {
     color: rgb(189, 15, 15);
     background-color: black;
-    font-size: xx-large;
+    font-size: x-large;
+}
+.navigation a{
+	text-decoration:none;
 }
 .welcome-image
 {
     background-color: blue;
     background-position: center;
     position: relative;
+    width: auto;
+    height: auto;
+    transition: 0.4s ease-in-out;
+    filter: grayscale(100%);
 }
 .welcome-image:hover
 {
     background-color: darkcyan;
 }
+
+.introduction
+{
+    margin-top: 20px;
+    font-family: 'Abel', sans-serif;
+}
+
+.image
+{
+    width: 100%;
+    height: 80%;
+}
+
+
+#side-bar{
+	overflow:hidden;   /* For displaying the text beside the image */
+	display:block;
+	padding:5px;
+	border-bottom:1px solid #1a0066;
+	padding-bottom:20px;
+}
+
+
+#sideimage
+{
+	
+    height: 380px;
+    width: 250px;
+	float:left;
+	
+}
+#aboutabir{
+	float:left;
+    margin-left:20px;
+    font: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#aboutAbirText
+{
+    font-family: 'Comic Neue', cursive;
+    margin-top: 5px;
+    position: relative;
+}
+.textBlock
+{
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.textBlock:hover
+{
+    background-color: blueviolet;
+    transition: 0.4s ease-in;
+    margin-right: 40%;
+}
+#side-bar2
+{
+	overflow:hidden;
+	display:block;
+	padding: 5px;
+	margin-top:-5px;
+}
+
+#sideimage2
+{
+	width:250px;
+	height:380px;
+	float:left;
+	
+}
+
+#aboutrafi
+{
+	float:left;
+    margin-left:20px;
+    font: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#aboutRafiText
+{
+    font-family: 'Comic Neue', cursive;
+    margin-top: 5px;
+    position: relative;
+}
+.textBlock2
+{
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.textBlock2:hover
+{
+    background-color: blueviolet;
+    transition: 0.4s ease-in;
+    margin-right: 40%;
+}
+
+#footer{                                    /* The footer design */
+	background-color:#2d2d2e;
+	color:#ffffcc;
+	text-align:center;
+	padding:5px;
+	font-style:italic;
+	margin:0px auto;
+	
+}
+/*Button Design*/
+#mybtn{
+  background: #4162a8;
+  border-top: 1px solid #38538c;
+  border-right: 1px solid #1f2d4d;
+  border-bottom: 1px solid #151e33;
+  border-left: 1px solid #1f2d4d;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: 14px/1 "helvetica neue", helvetica, arial, sans-serif;
+  margin-bottom: 25px;
+  margin-left: 50%;
+  margin-top: auto;
+  text-align: center;
+  text-shadow: 0 -1px 1px #1e2d4d;
+  width: 68px;
+  height:27px;
+ }
+#mybtn:hover {
+    -webkit-box-shadow: inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+    box-shadow: inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+    cursor: pointer; }
+#mybtn:active{
+	 box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    margin-top: 2px; }
+
+    .aboutTitle
+    {
+        text-align: center;
+        background-color: darkturquoise;
+        padding: 25px;
+        color: black;
+        font-weight: 400;
+        border: none;
+        border-style: inset;
+    }
+    .aboutTitle:hover{
+        background-color: black;
+        transition: 0.3s all ease;
+        font-size: larger;
+        color: cornsilk;
+    }
 .image
 {
     width: fit-content;

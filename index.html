@@ -1,3 +1,4 @@
+
 <!DOCTYPE html5>
 <html>
     <head>
@@ -6,8 +7,26 @@
         </title>
         <link rel="shortcut icon" type="image/png" href="Resources\favicon.png"> <!-- favicon -->
         <link rel="stylesheet" type="text/css" href="Resources\style.css"> <!-- CSS style -->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet"> <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/pqv0nkk.css"> <!-- Font for Navigation -->
+        <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+
+
     </head>
-    <body bgcolor="white" >
+
+<body>
+		<div id="share_item">  <!-- Share panel code -->
+		<ul>
+			<li><a href="http://www.facebook.com"><img src="Resources/Pictures/facebook.png"/></a></li>
+			<li><a href="#"><img src="Resources/Pictures/twitter.png"/></a></li>
+			<li><a href="#"><img src="Resources/Pictures/youtube.png"/></a></li>
+			<li><a href="#"><img src="Resources/Pictures/linked-in.png"/></a></li>
+			<li><a href="#"><img src="Resources/Pictures/messenger.png"/></a></li>
+		</ul>
+	</div>
+	
+		
         <div class="header">
             <header>
                 <h2 title="Name Of The Website" align="center">Xtrex Network</h2>
@@ -16,28 +35,64 @@
         <div class="navigation">
             <nav>
                 <p title="Navigation Area">
+                    |
                 <a href="#">Home</a> | 
-                <a href="#">2nd page</a> |
+                <a href="Resources/explore.html">Explore</a> |
                 </p>
             </nav>
         </div>
         <div class="welcome-image">
-            <img src="Resources\welcome.jpg" title="Welcome Image" alt="Xtrex Welcome Image" class="image">
-        </div>
+
+            <img src="Resources/Pictures/welcome.png" title="Welcome Image" alt="Xtrex Welcome Image" class="image">
+  </div>
         <div class="introduction">
             <p title="Introduction to our site">
                 The xtrex network is a personal home network. It is intended for home users and friends. The network is maintained by Mushfiqur Rahman Abir. You will get to know more about him later. There are many services and personal servers built in to this netwrok and is shared with some specific people. In this website you will get to know about them access or request to acccess them. Also you can request features or give ideas.
             </p>
+
+            <br>
+            <!-- <h1 style="font-family:arial;font-style:italic;">This is rafi & Abir working together bro...</h1> -->
+        </div>
+
+		<button id="mybtn" onclick="window.location.href = 'Resources/explore.html';">Explore
+        </button>
+        
+        <div class="aboutTitle">
+            <h3 id="aboutTitleText">
+                Get To Know The Website Builders
+            </h3>
+        </div> 
+	</br>
+		<div id="side-bar"> <!-- Abir Section -->
+        <img id="sideimage" alt="Mushfiqur Rahman Abir" src="Resources\Pictures\abir.jpeg">
+        <h3 id="aboutAbir" title="About Abir">Mushfiqur Rahman abir</h3>
+        <div class="textBlock">
+        <p id="aboutAbirText">
+            Mushfiqur Rahman Abir is a 20 year old CSE student. FOnd of techs and programming. He is one of the owner of this website along with <strong>Rafi Talukdar</strong>.
+        Both of them are now trying yo build this website and looking for a team and learning more and more.</p>
+
+        </div>
         </div>
         <br/>
-        <div class="button">
-            <button title="Explore The Site" type="button" role="button">Explore</button>
+
+
+        <div id="side-bar2"> <!-- Rafi Section -->
+            <img id="sideimage2" alt="Rafi Talukdar" src="Resources/Pictures/rafi.jpg">
+            <h3 id="aboutRafi" title="About Rafi">Rafi Talukdar</h3>
+            <div class="textBlock2">
+            <p id="aboutRafiText"></br>
+                Rafi ekhane tor kichu information add korish</p>
+            </div>
         </div>
-        <div class="footer">
-            <footer>
-                <h6>©Mushfiqur Rahman Abir | Webpage Version - 1.0</h6>
+
+        
+       <!--  <p align="center">
+            Current progress of our website -
+            <progress max="100" min="0" value="55"></progress>
+        </p> -->
+	   <div id="footer">
+                <h6>&copy; Mushfiqur Rahman Abir & Rafi Talukdar | Webpage Version - 1.0</h6>
             </footer>
-        </div>
-        </body>
+	   </div>
     </body>
 </html>
