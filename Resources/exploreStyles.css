@@ -2,15 +2,68 @@
 body
 {
     background-color: none;
+    animation-name: body;
+    animation: body 5s linear 2s infinite alternate;
 }
+@keyframes body{
+    0% {background-color: gray;}
+    15%{background-color: green;}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green; }
+    100% {background-color:red;}
+}
+.header
+{
+    background-color: none;
+    position: relative;
+    animation-name: header;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: 0.1s ease-in;
+}
+@keyframes header {
+    0%   {background-color:red; }
+    15%   {background-color: rgb(70, 69, 69);}
+    25%  {background-color:yellow;}
+    50%  {background-color:blue;}
+    75%  {background-color:green; }
+    100% {background-color:red;}
+  }
+
 h1.title
 {
     text-align: center;
+    margin-top: -1.2%;
 }
+
+h1.title {  /* Taken from internet */
+    font-weight: 900;
+    font-size: 3.5em;
+  }
+  
+h1.title .letter {
+    display: inline-block;
+    line-height: 1em;
+  }
+
+
 h2.subtitle
-{
-    text-align: center;
-    margin-left: 15%;
-    font-size: small;
-    margin-top: -2%;
-}
+  {
+      text-align: center;
+      font-size: small;
+      margin-top: -3%;
+      margin-left: 18%;
+  }
+h2.subtitle {  /* Taken from internet */
+    font-weight: 400;
+    font-size: .9em;
+  }
+  
+h2.subtitle .letter {
+    display: inline-block;
+    line-height: .9em;
+  }
