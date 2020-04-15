@@ -28,7 +28,7 @@ body{
 
 .header
 {
-    background-color: cornsilk;
+    background-color: none;
     font: bold;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,14 +36,14 @@ body{
     text-shadow: black;
     background-image: none;
     position: relative;
-	transition:0.3s all ease;
-	
+    transition:0.3s all ease;
 }
 .header:hover
 {
     color: #1a0066;
     background-image: none;
     position: relative;
+    background-color: black;
 }
 .navigation
 {
