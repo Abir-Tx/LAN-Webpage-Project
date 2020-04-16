@@ -1,21 +1,22 @@
 /* Stylesheet for the explore page */
 body
 {
-    background-color: none;
+    background-color: black;
     animation-name: body;
     animation: body 5s linear 2s infinite alternate;
 }
 @keyframes body{
-    0% {background-color: gray;}
-    15%{background-color: green;}
-    25%  {background-color:yellow;}
-    50%  {background-color:blue;}
-    75%  {background-color:green; }
-    100% {background-color:red;}
+    0% {background-color: rgb(0, 0, 0);}
+    15%{background-color: rgb(17, 1, 1);}
+    25%  {background-color:rgb(43, 43, 39);}
+    50%  {background-color:rgb(58, 58, 59);}
+    75%  {background-color:rgb(66, 66, 66); }
+    100% {background-color:rgb(102, 100, 100);}
 }
 .header
 {
     background-color: none;
+    color: white;
     position: relative;
     animation-name: header;
     animation-duration: 5s;
@@ -25,13 +26,21 @@ body
     animation-direction: alternate;
     transition: 0.1s ease-in;
 }
-@keyframes header {
+/* @keyframes header {
     0%   {background-color:red; }
     15%   {background-color: rgb(70, 69, 69);}
     25%  {background-color:yellow;}
     50%  {background-color:blue;}
     75%  {background-color:green; }
     100% {background-color:red;}
+  } */
+  @keyframes header{
+    0% {color: blue;
+    transition: 0.2s ease-in;};
+    15% {color: brown;};
+    25% {color: cyan;};
+    50% {color: blueviolet;};
+    100% {color: floralwhite;};
   }
 
 h1.title
@@ -67,3 +76,31 @@ h2.subtitle .letter {
     display: inline-block;
     line-height: .9em;
   }
+
+
+
+nav
+{
+    background-color: darkturquoise;
+    text-shadow: black;
+    box-shadow: black;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-family: bungee, sans-serif;
+    font-weight: 100;
+   
+	transition:0.3s all ease;
+	margin-top:10px;
+    margin-bottom:10px;
+    font-size: medium;
+}
+nav:hover
+{
+    color: rgb(189, 15, 15);
+    background-color: black;
+    font-size: x-large;
+}
+nav a{
+	text-decoration:none;
+}
