@@ -104,20 +104,3 @@ nav:hover
 nav a{
 	text-decoration:none;
 }
-p.text1
-{
-  text-indent: 60px;
-  color: black;
-  text-shadow: 5px 2px 4px gray;
-  font-size: larger;
-  text-transform: capitalize;
-  word-spacing: 8px;
- /*  word-wrap: break-word; */
-p.second
-{
-  letter-spacing:5px;
-}
-.test
-{
-  background-color: white;
-}
