@@ -5,14 +5,14 @@ body
     animation-name: body;
     animation: body 5s linear 2s infinite alternate;
 }
-@keyframes body{
+/* @keyframes body{
     0% {background-color: rgb(0, 0, 0);}
     15%{background-color: rgb(17, 1, 1);}
     25%  {background-color:rgb(43, 43, 39);}
     50%  {background-color:rgb(58, 58, 59);}
     75%  {background-color:rgb(66, 66, 66); }
     100% {background-color:rgb(102, 100, 100);}
-}
+} */
 .header
 {
     background-color: none;
@@ -81,7 +81,7 @@ h2.subtitle .letter {
 
 nav
 {
-    background-color: darkturquoise;
+    background-color: rgb(0, 0, 0);
     text-shadow: black;
     box-shadow: black;
     color: white;
@@ -98,9 +98,42 @@ nav
 nav:hover
 {
     color: rgb(189, 15, 15);
-    background-color: black;
+    background-color: darkturquoise;
     font-size: x-large;
 }
-nav a{
-	text-decoration:none;
+nav a:link{
+  text-decoration:none;
+}
+nav a:hover
+{
+  transition: 0.3s ease-out;
+  color: white;
+  text-decoration: line-through;
+  text-decoration-color: rgb(117, 1, 1);
+  text-decoration-thickness:10px;
+}
+h3#photography
+{
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: left;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+}
+.photography
+{
+  background-color: none;
+  width: max-content;
+}
+.photography:hover{
+  background-color: rgb(32, 32, 32);
+  transform-style: flat;
+  transition: 0.5s ease all;
+  transition-property: all;
+  cursor: grab;
+}
+img#MRALogo                       /* image positioning */
+{
+  height: 500px;
+  width: 300px;
 }
