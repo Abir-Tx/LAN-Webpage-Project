@@ -206,3 +206,9 @@ img#publicServer
   width: 350px;
  
 }
+footer:hover
+{
+    background-color: darkturquoise;
+    transition: 0.3s ease-in-out;
+    font-size: large;
+}
