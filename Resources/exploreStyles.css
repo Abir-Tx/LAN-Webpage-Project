@@ -161,6 +161,11 @@ h3#programming
   letter-spacing: 2px;
   color: white;
 }
+img#progLogo
+{
+  height: 300px;
+  width: 350px;
+}
 .test
 {
   display: flex;
