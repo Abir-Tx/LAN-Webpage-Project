@@ -167,9 +167,10 @@ img#progLogo
   width: 350px;
 }
 
-.test /* The Whole Division Style */
+.exploreSection /* The Whole Division Style */
 {
   display: flex;
+  width: 100%;
 }
 
 
