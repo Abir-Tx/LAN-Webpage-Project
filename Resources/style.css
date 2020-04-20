@@ -73,7 +73,14 @@ body{
 .navigation a{
 	text-decoration:none;
 }
-
+nav a:hover
+{
+  transition: 0.3s ease-out;
+  color: white;
+  text-decoration: line-through;
+  text-decoration-color: rgb(117, 1, 1);
+  text-decoration-thickness:10px;
+}
 .welcome-image
 {
     background-color: blue;
