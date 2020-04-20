@@ -256,3 +256,8 @@ nav a:hover
         font-size: larger;
         color: cornsilk;
     }
+    h3#aboutTitleText
+    {
+        /* color: azure; */
+        text-shadow: 5px 4px 4px blue;
+    }
