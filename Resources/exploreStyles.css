@@ -94,6 +94,7 @@ nav
 	margin-top:10px;
     margin-bottom:10px;
     font-size: medium;
+    position: sticky;
 }
 nav:hover
 {
@@ -123,7 +124,7 @@ h3#photography
 .photography
 {
   background-color: none;
-  width: max-content;
+  width: 350px;
 }
 .photography:hover{
   background-color: rgb(32, 32, 32);
