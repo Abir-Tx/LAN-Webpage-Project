@@ -64,7 +64,7 @@ h2.subtitle
   {
       text-align: center;
       font-size: small;
-      margin-top: -3%;
+      margin-top: -2%;
       margin-left: 18%;
   }
 h2.subtitle {  /* Taken from internet */
@@ -137,6 +137,8 @@ img#MRALogo                       /* image positioning */
 {
   height: 300px;
   width: 350px;
+  margin-left: -30px;
+  
 }
 
 /* Programming section */
@@ -170,7 +172,7 @@ img#progLogo
 .exploreSection /* The Whole Division Style */
 {
   display: flex;
-  width: 100%;
+  width: 80%;
 }
 
 
@@ -179,6 +181,8 @@ img#progLogo
 {
   background-color: none;
   margin-left: 15%;
+  width: 100%;
+
 }
 .publicServer:hover
 {
@@ -200,4 +204,5 @@ img#publicServer
 {
   height: 300px;
   width: 350px;
+ 
 }
