@@ -40,6 +40,7 @@ body{
     background-image: none;
     position: relative;
     transition:0.3s all ease;
+    margin-top: -20px;
 }
 .header:hover
 {
@@ -127,13 +128,14 @@ nav a:hover
 	
 }
 #aboutabir{
-	float:left;
+	
     margin-left:20px;
     font: bold;
     font-family: 'Oswald', sans-serif;
 }
 #aboutAbirText
 {
+   
     font-family: 'Comic Neue', cursive;
     margin-top: 5px;
     position: relative;
@@ -169,7 +171,7 @@ nav a:hover
 
 #aboutrafi
 {
-	float:left;
+	
     margin-left:20px;
     font: bold;
     font-family: 'Oswald', sans-serif;
@@ -202,6 +204,13 @@ nav a:hover
 	font-style:italic;
 	margin:0px auto;
 	
+}
+.btn
+{
+    text-align: center;
+    margin-left: 50%;
+    margin-top: 0%;
+    margin-bottom: 20px;
 }
 /*Button Design*/
 /* #mybtn{
