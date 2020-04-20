@@ -166,7 +166,37 @@ img#progLogo
   height: 300px;
   width: 350px;
 }
-.test
+
+.test /* The Whole Division Style */
 {
   display: flex;
+}
+
+
+/* Public Server Section */
+.publicServer
+{
+  background-color: none;
+  margin-left: 15%;
+}
+.publicServer:hover
+{
+  background-color: rgb(32, 32, 32);
+  transform-style: flat;
+  transition: 0.5s ease all;
+  transition-property: all;
+  cursor: grab;
+}
+h3#publicServer
+{
+  text-align: center;
+  font-variant: small-caps;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  color: white;
+}
+img#publicServer
+{
+  height: 300px;
+  width: 350px;
 }
