@@ -32,11 +32,11 @@ body{
 .header
 {
     background-color: none;
-    font: bold;
+    font-weight: 400;
     font-size: x-large;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
-    text-shadow: black;
+    text-shadow:2px 2px 4px black;
     background-image: none;
     position: relative;
     transition:0.3s all ease;
@@ -47,7 +47,7 @@ body{
     color: #1a0066;
     background-image: none;
     position: relative;
-    background-color: black;
+    /* background-color: black; */
 }
 .navigation
 {
