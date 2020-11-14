@@ -11,10 +11,11 @@
         <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://use.typekit.net/pqv0nkk.css"> <!-- Font for Navigation -->
         <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
-
+        <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     </head>
-
 <body>
 		<div id="share_item">  <!-- Share panel code -->
 		<ul>
@@ -38,24 +39,24 @@
                     |
                 <a href="#">Home</a> | 
                 <a href="Resources/explore.html">Explore</a> |
+                <a href="Resources/about.html">About</a>|
                 </p>
             </nav>
         </div>
         <div class="welcome-image">
-
-            <img src="Resources/Pictures/welcome.png" title="Welcome Image" alt="Xtrex Welcome Image" class="image">
-  </div>
+            <img src="Resources/Pictures/welcome.png" draggable="true" title="Welcome Image" alt="Xtrex Welcome Image" class="image">
+        </div>
         <div class="introduction">
             <p title="Introduction to our site">
                 The xtrex network is a personal home network. It is intended for home users and friends. The network is maintained by Mushfiqur Rahman Abir. You will get to know more about him later. There are many services and personal servers built in to this netwrok and is shared with some specific people. In this website you will get to know about them access or request to acccess them. Also you can request features or give ideas.
             </p>
-
             <br>
             <!-- <h1 style="font-family:arial;font-style:italic;">This is rafi & Abir working together bro...</h1> -->
         </div>
 
-		<button id="mybtn" onclick="window.location.href = 'Resources/explore.html';">Explore
-        </button>
+		<!-- <button id="mybtn" onclick="window.location.href = 'Resources/explore.html';">Explore
+        </button> -->
+        <a href="Resources/explore.html" class="btn waves-effect">Explore</a>
         
         <div class="aboutTitle">
             <h3 id="aboutTitleText">
@@ -64,27 +65,26 @@
         </div> 
 	</br>
 		<div id="side-bar"> <!-- Abir Section -->
-        <img id="sideimage" alt="Mushfiqur Rahman Abir" src="Resources\Pictures\abir.jpeg">
+        <img id="sideimage" alt="Mushfiqur Rahman Abir" src="Resources\Pictures\abir.jpeg" class="materialboxed">
         <h3 id="aboutAbir" title="About Abir">Mushfiqur Rahman abir</h3>
         <div class="textBlock">
         <p id="aboutAbirText">
             Mushfiqur Rahman Abir is a 20 year old CSE student. FOnd of techs and programming. He is one of the owner of this website along with <strong>Rafi Talukdar</strong>.
         Both of them are now trying yo build this website and looking for a team and learning more and more.</p>
-
         </div>
         </div>
         <br/>
 
 
         <div id="side-bar2"> <!-- Rafi Section -->
-            <img id="sideimage2" alt="Rafi Talukdar" src="Resources/Pictures/rafi.jpg">
+            <img class="materialboxed" id="sideimage2" alt="Rafi Talukdar" src="Resources/Pictures/rafi.jpg">
             <h3 id="aboutRafi" title="About Rafi">Rafi Talukdar</h3>
             <div class="textBlock2">
             <p id="aboutRafiText"></br>
                 Rafi ekhane tor kichu information add korish</p>
             </div>
         </div>
-
+    
         
        <!--  <p align="center">
             Current progress of our website -
@@ -93,6 +93,10 @@
 	   <div id="footer">
                 <h6>&copy; Mushfiqur Rahman Abir & Rafi Talukdar | Webpage Version - 1.0</h6>
             </footer>
-	   </div>
+       </div>
+        <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="Resources\indexJavaScript.js"></script>  
     </body>
 </html>
