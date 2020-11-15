@@ -29,11 +29,17 @@ body{
 	width:+80%
 }
 
+@media (max-width:1080px) {
+    div#share_item {
+      display: none;
+    }
+  }
+
 .header
 {
     background-color: none;
     font-weight: 400;
-    font-size: x-large;
+    font-size: 6vw;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     text-shadow:2px 2px 4px black;
@@ -63,7 +69,7 @@ body{
 	transition:0.3s all ease;
 	margin-top:10px;
     margin-bottom:10px;
-    font-size: medium;
+    font-size: 2vh;
 }
 .navigation:hover
 {
@@ -87,28 +93,49 @@ nav a:hover
     background-color: blue;
     background-position: center;
     position: relative;
-    width: auto;
+    width: 100%;
     height: auto;
     transition: 0.4s ease-in-out;
     filter: grayscale(100%);
 }
-.welcome-image:hover
+/* .welcome-image:hover
 {
     background-color: darkcyan;
+} */
+@media screen and (max-width: 1079px){
+    div.image{
+        height: 60%;
+    }
 }
 
 .introduction
 {
     margin-top: 20px;
     font-family: 'Abel', sans-serif;
+    font-size: 2vw;
+}
+
+/* Variable font size */
+@media screen and (min-width: 1080px){
+    div.introduction{
+        font-size: 2vw;
+    }
+}
+@media screen and (max-width: 1079px){
+    div.introduction{
+        font-size: 7vw;
+    }
 }
 
 .image
 {
     width: 100%;
-    height: 80%;
+    height: auto;
 }
 
+#explorebtn{
+    font-size: 2vh;
+}
 
 #side-bar{
 	overflow:hidden;   /* For displaying the text beside the image */
@@ -139,6 +166,7 @@ nav a:hover
     font-family: 'Comic Neue', cursive;
     margin-top: 5px;
     position: relative;
+    font-size: 2vh;
 }
 .textBlock
 {
@@ -202,7 +230,7 @@ nav a:hover
 	text-align:center;
 	padding:5px;
 	font-style:italic;
-	margin:0px auto;
+    margin:0px auto;
 	
 }
 .btn
