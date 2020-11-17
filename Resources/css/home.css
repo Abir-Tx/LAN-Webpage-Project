@@ -144,7 +144,7 @@ nav a:hover {
   margin-bottom: 20px;
 }
 
-#footer {
+footer {
   /* The footer design */
   background-color: #2d2d2e;
   color: #ffffcc;
@@ -152,4 +152,12 @@ nav a:hover {
   padding: 5px;
   font-style: italic;
   margin: 0px auto;
+  width: 100%;
+  position: absolute;
+  font-size: 1vh;
+}
+footer:hover {
+  background-color: darkturquoise;
+  transition: 0.3s ease-in-out;
+  font-size: 3vh;
 }
