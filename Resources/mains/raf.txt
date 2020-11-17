@@ -1,0 +1,184 @@
+
+    <div class="aboutTitle">
+        <h3 id="aboutTitleText">
+            Get To Know The Website Builders
+        </h3>
+    </div>
+    </br>
+    <div id="side-bar">
+        <!-- Abir Section -->
+        <img id="sideimage" alt="Mushfiqur Rahman Abir" src="Resources\img\abir.jpeg" class="materialboxed">
+        <h3 id="aboutAbir" title="About Abir">Mushfiqur Rahman abir</h3>
+        <div class="textBlock">
+            <p id="aboutAbirText">
+                Mushfiqur Rahman Abir is a 20 year old CSE student. FOnd of techs and programming. He is one of the
+                owner of this website along with <strong>Rafi Talukdar</strong>.
+                Both of them are now trying yo build this website and looking for a team and learning more and more.</p>
+        </div>
+    </div>
+    <br />
+
+
+    <div id="side-bar2">
+        <!-- Rafi Section -->
+        <img class="materialboxed" id="sideimage2" alt="Rafi Talukdar" src="Resources/img/rafi.jpg">
+        <h3 id="aboutRafi" title="About Rafi">Rafi Talukdar</h3>
+        <div class="textBlock2">
+            <p id="aboutRafiText"></br>
+                Rafi ekhane tor kichu information add korish</p>
+        </div>
+    </div>
+
+
+    <!--  <p align="center">
+            Current progress of our website -
+            <progress max="100" min="0" value="55"></progress>
+        </p> -->
+
+
+
+
+
+
+/*CSS*/
+
+
+
+
+
+#side-bar{
+	overflow:hidden;   /* For displaying the text beside the image */
+	display:block;
+	padding:5px;
+	border-bottom:1px solid #1a0066;
+	padding-bottom:20px;
+}
+
+
+#sideimage
+{
+	
+    height: 380px;
+    width: 250px;
+	float:left;
+	
+}
+#aboutabir{
+	
+    margin-left:20px;
+    font: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#aboutAbirText
+{
+   
+    font-family: 'Comic Neue', cursive;
+    margin-top: 5px;
+    position: relative;
+    font-size: 2vh;
+}
+.textBlock
+{
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.textBlock:hover
+{
+    background-color: blueviolet;
+    transition: 0.4s ease-in;
+    margin-right: 40%;
+}
+#side-bar2
+{
+	overflow:hidden;
+	display:block;
+	padding: 5px;
+	margin-top:-5px;
+}
+
+#sideimage2
+{
+	width:250px;
+	height:380px;
+	float:left;
+	
+}
+
+#aboutrafi
+{
+	
+    margin-left:20px;
+    font: bold;
+    font-family: 'Oswald', sans-serif;
+}
+#aboutRafiText
+{
+    font-family: 'Comic Neue', cursive;
+    margin-top: 5px;
+    position: relative;
+}
+.textBlock2
+{
+    background-color: none;
+    margin-top: 30px;
+    margin-left: 300px;
+    margin-right: 250px;
+}
+.textBlock2:hover
+{
+    background-color: blueviolet;
+    transition: 0.4s ease-in;
+    margin-right: 40%;
+}
+
+/*Button Design*/
+/* #mybtn{
+  background: #4162a8;
+  border-top: 1px solid #38538c;
+  border-right: 1px solid #1f2d4d;
+  border-bottom: 1px solid #151e33;
+  border-left: 1px solid #1f2d4d;
+  border-radius: 5px;
+  -webkit-box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+  box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+  color: #fff;
+  font: 14px/1 "helvetica neue", helvetica, arial, sans-serif;
+  margin-bottom: 25px;
+  margin-left: 50%;
+  margin-top: auto;
+  text-align: center;
+  text-shadow: 0 -1px 1px #1e2d4d;
+  width: 68px;
+  height:27px;
+ }
+#mybtn:hover {
+    -webkit-box-shadow: inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+    box-shadow: inset 0 0 20px 1px #87adff, 0 1px 0 #1d2c4d, 0 6px 0 #1f3053, 0 8px 4px 1px #111111;
+    cursor: pointer; }
+#mybtn:active{
+	 box-shadow: inset 0 1px 10px 1px #5c8bee, 0 1px 0 #1d2c4d, 0 2px 0 #1f3053, 0 4px 3px 0 #111111;
+    margin-top: 2px; } */
+
+    .aboutTitle
+    {
+        text-align: center;
+        background-color: darkturquoise;
+        padding: 25px;
+        color: black;
+        font-weight: 400;
+        border: none;
+        border-style: inset;
+    }
+    .aboutTitle:hover{
+        background-color: black;
+        transition: 0.3s all ease;
+        font-size: larger;
+        color: cornsilk;
+    }
+    h3#aboutTitleText
+    {
+        /* color: azure; */
+        text-shadow: 5px 4px 4px blue;
+    }
