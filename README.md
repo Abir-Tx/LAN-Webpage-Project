@@ -3,7 +3,7 @@ A project to host the webpage on my LAN which can be accessed by anyone in my Lo
 
 # NOTICE
 
-This project have now been archived. The development of this project has been stopped & is inclomplete too. 
+This project have now been archived. The development of this project has been stopped & is inclomplete too. You can now use this project's codes as a template or model.
 
 > **This project has been moved to [here](https://github.com/Abir-Tx/xtrex-web) with a new name but with the same motivation and reason.**
 
