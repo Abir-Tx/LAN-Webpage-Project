@@ -1,6 +1,13 @@
 # LAN-Webpage-Project
-A project to host the webpage on my LAN which can be accessed by anyone i my Local Area Network
+A project to host the webpage on my LAN which can be accessed by anyone in my Local Area Network
 
+# NOTICE
+
+This project have now been archived. The development of this project has been stopped & is inclomplete too. 
+
+> **This project has been moved to [here](https://github.com/Abir-Tx/xtrex-web) with a new name but with the same motivation and reason.**
+
+- [Visit **xtrex-web** project](https://github.com/Abir-Tx/xtrex-web)
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/Abir-Tx/LAN-Webpage-Project/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
